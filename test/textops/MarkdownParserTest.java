@@ -16,6 +16,14 @@
  */
 package textops;
 
+import static org.testframe.api.Asserters;
+import org.testframe.api.Test;
+
 public class MarkdownParserTest {
 
+    @Test
+    public void placeholder() {
+        fail("HAVEN'T WRITTEN TEST YET");
+    }
+    
 }
