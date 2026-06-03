@@ -18,7 +18,8 @@ simple as I can make it, and opinionated only when necessary to avoid
 complexity.
 
 Instead of using XML files, this build tool will use markdown files to describe 
-the project structure.
+the project structure. This project's [build.md](build description file) should 
+be regarded as a model.
 
 This project started out in another repository as an Apache Ant project. Then I 
 thought about the build tool building itself somehow. But now I'm thinking I'll 
