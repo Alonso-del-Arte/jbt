@@ -25,7 +25,7 @@ variables and other means.
 
 #### Java Development Kit
 
-* Path: $JAVA_HOME$
+* Path: `$JAVA_HOME$`
 * Version: 21
 
 ### Test Libraries
@@ -34,3 +34,13 @@ variables and other means.
 
 * Path: PATH GOES HERE
 * Version: 0.95
+
+## Output directories
+
+### Source Packages
+
+* Path: build/classes/
+
+### Test Packages
+
+* Path: build/test/classes/
