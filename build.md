@@ -14,7 +14,7 @@ All package paths will be relative to the project root.
 
 ### Test Packages
 
-test/
+* Path: test/
 
 ## Libraries
 
