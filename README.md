@@ -15,11 +15,21 @@ and if it was ever simple, it sure as hell no longer is.
 
 In this project, I aim to create a build tool for Java-only projects that is as 
 simple as I can make it, and opinionated only when necessary to avoid 
-complexity.
+complexity, and opinionated in a way that feels natural if possible.
+
+Since Java can be used on a few different operating systems which have different 
+conventions for specifying paths, this tool will be opinionated in that paths 
+must be specified by Unix conventions. So, for example, the path for source 
+files that are not tests might be "src/main/java/". On a Windows system, this 
+tool would take care of converting that to "src\main\java\".
+
+I haven't decided yet how to handle environment variables, such as JAVA_HOME.
 
 Instead of using XML files, this build tool will use markdown files to describe 
 the project structure. This project's [build.md](build description file) should 
 be regarded as a model.
+
+----
 
 This project started out in another repository as an Apache Ant project. Then I 
 thought about the build tool building itself somehow. But now I'm thinking I'll 
